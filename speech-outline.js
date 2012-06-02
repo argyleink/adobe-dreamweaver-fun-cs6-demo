@@ -15,9 +15,10 @@ var speech = {
 		
 		this.plan 		= 'Explore mobile, tablet, and web app development with Dreamweaver.';
 		this.tools 		= 'Shadow, Live Reload, Adaptive Layouts, Media Queries, jQuery, CSS3';
+		this.setup		= 'How I like to use Dreamweaver';
 		
 		this.coolness	= [
-							'HTML5, CSS3, jQuery, PHP Code completion',
+							'HTML5, CSS3, jQuery Code completion',
 							'jQuery Mobile Code Completion',
 							'Shadow',
 							'Live Reload',
