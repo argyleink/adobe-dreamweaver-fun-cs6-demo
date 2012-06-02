@@ -2,9 +2,10 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-<title>Fun with CSS3</title>
+<title>Fun with Media Queries</title>
 
 <link rel="stylesheet" href="styles.css" type="text/css" />
+<link href="boilerplate.css" rel="stylesheet" type="text/css">
 
 <script src="http://code.jquery.com/jquery-1.7.1.min.js"></script>
 <script src="https://raw.github.com/LeaVerou/prefixfree/gh-pages/prefixfree.min.js"></script>
@@ -14,6 +15,10 @@
 <body>
 	<div class="example absolute center fun"></div>
 	
+	<!--[if lt IE 9]>
+		<script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+	<![endif]-->
+	<script src="respond.min.js"></script>
 	<script>document.write('<script src="http://' + (location.host || 'localhost').split(':')[0] + ':35729/livereload.js?snipver=1"></' + 'script>')</script>
 </body>
 
