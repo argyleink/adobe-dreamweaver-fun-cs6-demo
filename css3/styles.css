@@ -1,0 +1,16 @@
+.absolute 	{ position:absolute; }
+
+.example {
+	top:50%;
+	left:50%;
+	margin:-125px 0 0 -125px;
+	width:250px;
+	height:250px;
+	background:#444;
+	
+	transition:all 1s ease-out;
+}
+
+.fun {
+	transform:rotate(180deg);	
+}
